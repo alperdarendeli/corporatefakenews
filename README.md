@@ -42,6 +42,8 @@ To replicate results, data from Twitter API is assumed to have been downloaded. 
   Training dataset   :: tweet_id, country_code, city, tweet_text, tweet_lang, user_name, user_description, user_location
   Prediction dataset :: user_id, tweet_id, tweet_text, tweet_lang, user_name, user_description, user_location
 ```
+The code may be download from  [releases](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0)
+
 **Part A: Training dataset**
 
 1. Run `python a1_dataset_preprocessing.py` to clean the text data after modifying line 14 with the correct file path.  
