@@ -24,7 +24,7 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 | source | Name of fact-checking organization |
 | source_link | URL link of fact-checking article |
 | firm_name | Company name |
-| news_topic | Topical classification of the fact-checking article	|
+| news_topic | Topical classification of fact-checking article	|
 | rumor_source_name | The source of rumor as mentioned in fact-checking article |
 | verdict | Overall conclusion about the accuracy or truthfulness of the claim being fact-checked |
 
@@ -32,8 +32,8 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 
 Training, prediction and tweets datasets may be downloaded from [releases](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0), please unzip before use.
 - Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, Country Codes and City IDs. To map City IDs  to their respective city names and country, please refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
-- Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs of Twitter authors, whose locations are predicted in the study. 
-- Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, company name and the verdict of claim. 
+- Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs, whose locations are predicted in the study. 
+- Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, Company Name and Verdict of Claim. 
 
 ## C. Location Prediction Model 
 
@@ -59,5 +59,5 @@ To replicate results, data from Twitter API is assumed to have been downloaded. 
 
 ## D. Firm Unique Identifiers
 
-Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company unique identifiers ([gvkey.csv](datasets/gvkey.csv)) in the sample to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
+Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company unique identifiers ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
 
