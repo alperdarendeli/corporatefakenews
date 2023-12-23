@@ -1,12 +1,12 @@
 ```
-                          *************************************************************************
-                          ***               THE GEOGRAPHY OF CORPORATE FAKE NEWS                ***
-                          ***                                                                   ***
-                          ***     Alper DARENDELI (Nanyang Technology University Singapore)     ***
-                          ***     SUN Aixin (Nanyang Technology University Singapore)           ***
-                          ***     TAY Wee Peng (Nanyang Technology University Singapore)        ***
-                          ***                                                                   ***
-                          *************************************************************************
+                            *************************************************************************
+                            ***               THE GEOGRAPHY OF CORPORATE FAKE NEWS                ***
+                            ***                                                                   ***
+                            ***     Alper DARENDELI (Nanyang Technology University Singapore)     ***
+                            ***     SUN Aixin (Nanyang Technology University Singapore)           ***
+                            ***     TAY Wee Peng (Nanyang Technology University Singapore)        ***
+                            ***                                                                   ***
+                            *************************************************************************
 ```
 
 ## Content
@@ -21,19 +21,19 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 | Variable | Definitions |
 | :------- | :---------- |
 | published_date | Publication date of fact-checking article |
-| source | Fact-checking organization |
+| source | Name of fact-checking organization |
 | source_link | URL link of fact-checking article |
 | firm_name | Company name |
-| news_topic | Topical classification of the fact-checked claim	|
+| news_topic | Topical classification of the fact-checking article	|
 | rumor_source_name | The source of rumor as mentioned in fact-checking article |
 | verdict | Overall conclusion about the accuracy or truthfulness of the claim being fact-checked |
 
 ## B. Training, Prediction and Tweet Datasets
 
 Training, prediction and tweets datasets may be downloaded from [releases](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0), please unzip before use.
-- Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, country codes and city IDs. City IDs may be mapped to their city names and country, refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
+- Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, Country Codes and City IDs. To map City IDs  to their respective city names and country, please refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
 - Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs of Twitter authors, whose locations are predicted in the study. 
-- Tweet dataset (tweets_dataset.csv) contains comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, company name and the verdict of claim. 
+- Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, company name and the verdict of claim. 
 
 ## C. Location Prediction Model 
 
