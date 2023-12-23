@@ -1,12 +1,12 @@
 ```
-        *************************************************************************
-        ***               THE GEOGRAPHY OF CORPORATE FAKE NEWS                ***
-        ***                                                                   ***
-        ***     Alper DARENDELI (Nanyang Technology University Singapore)     ***
-        ***     SUN Aixin (Nanyang Technology University Singapore)           ***
-        ***     TAY Wee Peng (Nanyang Technology University Singapore)        ***
-        ***                                                                   ***
-        *************************************************************************
+               *************************************************************************
+               ***               THE GEOGRAPHY OF CORPORATE FAKE NEWS                ***
+               ***                                                                   ***
+               ***     Alper DARENDELI (Nanyang Technology University Singapore)     ***
+               ***     SUN Aixin (Nanyang Technology University Singapore)           ***
+               ***     TAY Wee Peng (Nanyang Technology University Singapore)        ***
+               ***                                                                   ***
+               *************************************************************************
 ```
 
 ## Content
