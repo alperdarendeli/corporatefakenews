@@ -13,7 +13,7 @@
 - [A. Corporate Fake News Dataset](#a-corporate-fake-news-dataset)
 - [B. Training, Prediction and Tweet Datasets](#b-training-prediction-and-tweet-datasets)
 - [C. Location Prediction Model](#c-location-prediction-model)
-- [D. Firm Unique Identifiers](#d-firm-unique-identifiers)
+- [D. COMPUSTAT Firm Identifiers](#d-firm-unique-identifiers)
 
 ## A. Corporate Fake News Dataset
 
@@ -59,7 +59,7 @@ The code may be download from  [here](https://github.com/alperdarendeli/corporat
 3. Run `python b3_finalise_output.py` to map city predictions on tweets to final country predictions of users.  
    Results will be stored at `seeded-0/results/authlist/authlist_user_preds_ndim_2_nlstm_100.csv`.
 
-## D. Compsutat Firm Identifiers
+## D. COMPUSTAT Firm Identifiers
 
 Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company identifiers ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
 
