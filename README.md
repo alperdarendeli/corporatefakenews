@@ -31,7 +31,7 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 ## B. Training, Prediction and Tweet Datasets
 
 Training, prediction and tweets datasets may be downloaded from [here](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0), please unzip before use.
-- Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, Country Codes and City IDs. To map City IDs  to their respective city names and country, please refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
+- Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, Country Codes and City IDs. To map City IDs  to their respective city names and countries, please refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
 - Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs, whose locations are predicted in the study. 
 - Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, Company Name and Verdict of Claim. 
 
@@ -55,7 +55,7 @@ The code may be download from  [here](https://github.com/alperdarendeli/corporat
 **Part B: Prediction dataset**
 
 1. Run `python b1_dataset_preprocessing.py` to clean the text data after modifying line 13 with the correct file path.  
-2. Run `python b2_lstm_infer.py -SEED 0 -ndim 100 -nlstm 2` to prediction locations using the model.
+2. Run `python b2_lstm_infer.py -SEED 0 -ndim 100 -nlstm 2` to predict locations using the model.
 3. Run `python b3_finalise_output.py` to map city predictions on tweets to final country predictions of users.  
    Results will be stored at `seeded-0/results/authlist/authlist_user_preds_ndim_2_nlstm_100.csv`.
 
