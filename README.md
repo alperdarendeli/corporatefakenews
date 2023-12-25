@@ -59,7 +59,7 @@ The code may be download from  [here](https://github.com/alperdarendeli/corporat
 3. Run `python b3_finalise_output.py` to map city predictions on tweets to final country predictions of users.  
    Results will be stored at `seeded-0/results/authlist/authlist_user_preds_ndim_2_nlstm_100.csv`.
 
-## D. Firm Unique Identifiers
+## D. Compsutat Firm Identifiers
 
-Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company unique identifiers ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
+Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company identifiers ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
 
