@@ -37,7 +37,7 @@ Training, prediction and tweets datasets may be downloaded from [here](https://g
 
 ## C. Location Prediction Model 
 
-To replicate results, data from Twitter API is assumed to have been downloaded. Please ensure that the datasets have the following fields:
+To replicate results, the tweet features need to be downloaded using Twitter API. Please ensure that the datasets have the following fields:
 ```
   Training dataset   :: tweet_id, country_code, city, tweet_text, tweet_lang, user_name, user_description, user_location
   Prediction dataset :: user_id, tweet_id, tweet_text, tweet_lang, user_name, user_description, user_location
