@@ -30,7 +30,7 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 
 ## B. Training, Prediction and Tweet Datasets
 
-Training, prediction and tweets datasets may be downloaded from [here](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0), please unzip before use.
+Training, prediction and tweets datasets may be downloaded from [here](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0). Please unzip before use.
 - Training dataset (training_dataset.csv) comprises a total of 3,927,563 Tweet IDs that were posted on Twitter from 2014 to 2019. The dataset contains Tweet IDs, Country Codes and City IDs. To map City IDs  to their respective city names and countries, please refer to [utils\cities_mapper_new.csv](utils/cities_mapper_new.csv).
 - Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs, whose locations are predicted in the study. 
 - Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, Company Name and Verdict of Claim. 
@@ -61,5 +61,5 @@ The code may be download from  [here](https://github.com/alperdarendeli/corporat
 
 ## D. COMPUSTAT Firm Identifiers
 
-Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company identifiers ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
+Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company identifiers ([gvkey.csv](datasets/gvkey.csv)) in the sample to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
 
