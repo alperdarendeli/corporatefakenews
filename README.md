@@ -38,31 +38,7 @@ Training, prediction and tweets datasets may be downloaded from [here](https://g
 - Prediction dataset (prediction_dataset.csv) comprises a total of 189,158 unique User IDs, whose locations are predicted in the study. 
 - Tweet dataset (tweets_dataset.csv) comprises a total of 342,818 unique Tweet IDs, which post claims verified by a fact-checking organization. The variables in the dataset are Tweet ID, Company Name and Verdict of Claim. 
 
-## C. Location Prediction Model 
-
-To replicate results, the tweet features need to be downloaded using Twitter API. Please ensure that the datasets have the following fields:
-```
-  Training dataset   :: tweet_id, country_code, city, tweet_text, tweet_lang, user_name, user_description, user_location
-  Prediction dataset :: user_id, tweet_id, tweet_text, tweet_lang, user_name, user_description, user_location
-```
-The code may be download from  [here](https://github.com/alperdarendeli/corporatefakenews/releases/tag/v1.0.0)
-
-**Part A: Training dataset**
-
-1. Run `python a1_dataset_preprocessing.py` to clean the text data after modifying line 14 with the correct file path.  
-2. Run `python a2_build_tokenizer.py -feat all` to train the BertTokenizerFast.
-3. Run `python a3_train_optimized.py -gpu 0 -feat all -lr 3 -ndim 100 -nlstm 2` to train the model.
-4. Run `python a4_lstm_test.py -gpu 0 -exp features_all_lr_1e-3_ndim_100_nlstm_2 -feat all -split val` to evaluate the validation set using the model's final weights.
-5. Run `python a5_summarize_results.py` to print the metrics of the particular experiment. Modify line 39 to the correct experiment name.
-
-**Part B: Prediction dataset**
-
-1. Run `python b1_dataset_preprocessing.py` to clean the text data after modifying line 13 with the correct file path.  
-2. Run `python b2_lstm_infer.py -SEED 0 -ndim 100 -nlstm 2` to predict locations using the model.
-3. Run `python b3_finalise_output.py` to map city predictions on tweets to final country predictions of users.  
-   Results will be stored at `seeded-0/results/authlist/authlist_user_preds_ndim_2_nlstm_100.csv`.
-
-## D. COMPUSTAT Firm Identifiers
+## C. COMPUSTAT Firm Identifiers
 
 Accessing firm-specific data (i.e., COMPUSTAT, CRSP, Thomson Reuters 13F) requires a subscription to Wharton Research Data Services (WRDS). We provide a list of COMPUSTAT company identifiers in the sample ([gvkey.csv](datasets/gvkey.csv)) to facilitate replication of the empirical results. Supplementary Appendix 5 of the paper provides details about variable definitions and data sources. 
 
