@@ -27,7 +27,6 @@ The dataset ([corporate_fake_news.csv](datasets/corporate_fake_news.csv)) contai
 | source_link | URL link of fact-checking article |
 | firm_name | Company name |
 | news_topic | Topical classification of fact-checking article	|
-| rumor_source_name | The source of rumor as mentioned in fact-checking article |
 | verdict | Overall conclusion about the accuracy or truthfulness of the claim being fact-checked |
 
 ## B. Training, Prediction and Tweet Datasets
