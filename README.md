@@ -15,7 +15,7 @@
 ## Content
 - [A. Corporate Fake News Dataset](#a-corporate-fake-news-dataset)
 - [B. Training, Prediction and Tweet Datasets](#b-training-prediction-and-tweet-datasets)
-- [C. COMPUSTAT Firm Identifiers](#d-compustat-Firm-identifiers)
+- [C. COMPUSTAT Firm Identifiers](#c-compustat-Firm-identifiers)
 
 ## A. Corporate Fake News Dataset
 
