@@ -7,6 +7,9 @@
                ***     TAY Wee Peng (Nanyang Technology University Singapore)        ***
                ***                                                                   ***
                *************************************************************************
+
+                                      PLOS ONE, Forthcoming
+
 ```
 
 ## Content
