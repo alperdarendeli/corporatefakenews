@@ -8,7 +8,8 @@
                ***                                                                   ***
                *************************************************************************
 
-                                     
+                             Please cite this paper when using the data
+
                                             PLoS ONE 19(4)
                             https://doi.org/10.1371/journal.pone.0301364
 
