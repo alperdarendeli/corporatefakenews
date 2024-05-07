@@ -10,7 +10,8 @@
 
                              Please cite this paper when using the data
 
-                                            PLoS ONE 19(4)
+                             Darendeli, A., Sun, A., & Tay, W. P. (2024).
+                        The geography of corporate fake news. PloS ONE, 19(4)
                             https://doi.org/10.1371/journal.pone.0301364
 
 ```
